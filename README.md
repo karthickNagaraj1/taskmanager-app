@@ -1,12 +1,100 @@
-# React + Vite
+# 📝 Task Management App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **Task Management App** . This project demonstrates routing, custom hooks, form handling, data persistence, and tabular UI using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+**Objective**:
+Build a React application with routing, form validation, localStorage integration, and dynamic tables.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Features**:
+
+* ✅ React Router navigation (Home, Create, Edit)
+* ✅ Add/Edit/Delete tasks
+* ✅ Form validation with custom hooks
+* ✅ Search by title or description
+* ✅ Table with sorting & pagination
+* ✅ Persistent storage using `localStorage`
+* ✅ Clean and responsive design with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+* [React](https://reactjs.org/)
+* [React Router DOM](https://reactrouter.com/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Vite](https://vitejs.dev/)
+* LocalStorage for client-side data persistence
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+├── components/
+│   ├── TaskForm.jsx
+│   └── TaskTable.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── CreateTask.jsx
+│   └── EditTask.jsx
+├── hooks/
+│   └── useTaskForm.js
+├── utils/
+│   └── storage.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/task-management-app.git
+cd task-management-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔧 Available Scripts
+
+```bash
+npm run dev       # Runs the app in development mode
+npm run build     # Builds the app for production
+npm run preview   # Previews the production build
+```
+
+---
+
+## ✅ Learning Outcomes
+
+* Managing form state with reusable custom hooks
+* Page navigation with React Router
+* Persisting data using browser storage
+* Responsive UI design with Tailwind
+* Search, sort, and paginate dynamic content
+
+---
+
+## 🌐 Live Demo
+
+> *\[https://taskmanager-app-eta.vercel.app/]*
+
